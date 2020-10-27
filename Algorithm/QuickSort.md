@@ -125,7 +125,7 @@ public static int partition(int[] array, int left, int right) {
         }
         swap(array, i, j);
     }
-    array[left] = array[i];
+    array[mid] = array[i];
     array[i] = pivot;
     return i;
 }
